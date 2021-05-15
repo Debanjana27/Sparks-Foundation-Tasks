@@ -1,0 +1,100 @@
+
+<!Doctype HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This food ordering form allows collecting information about delivery, payment details -includes a 
+    credit card payment field- and meal choices which are essential for an online food order.
+     Also, with this food order form we have a validation field." />
+
+     <link rel="stylesheet" href="corseassi.css">
+
+<script>
+    function validateForm() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("the respective values must be filled out");
+        return false;
+      }
+    }
+    function checkField()
+    {
+        var field = document.getElementsById().value
+        var regex =  /^["Abcde@abc.com"][]$/;
+        if(regex.text(field))
+        document.getElementById().innerHTML="Input Valid";
+        else
+        document.getElementById().innerHTML="Please use a valid email address";
+
+    }
+    
+    </script>
+    
+    <meta charset="utf-8">
+    <title
+    FOOD ORDER FORMS >
+    </title>
+    
+    </head>
+
+    <body>
+    
+    
+    <form class="box" action=index.html method="post">
+    
+    <img 
+    src="ass2.jpg" alt="images" position="center" width=500 height=260>
+    <h1>FOOD ORDER FORMS
+    </h1>
+    <input type="text" name="name"placeholder="Your first name" required>
+    <input type="text" name="name"placeholder="Your last name" required><br><br>
+    <input type="text" name="address"placeholder="city" required></br>
+    <input type="text" name="address"placeholder="state" required><br>
+    <input type="text" name="address"placeholder="postal code" required></br><br>
+    <label for="country">COUNTRY:</label> 
+        <select name="country" id="country"> 
+            <option value="India">India</option> 
+            <option value="Bangladesh">Bangladesh</option> 
+            <option value="Algeria">Algeria</option> 
+            <option value="China">China</option> 
+
+          </select>
+    
+    
+
+    
+          <h2> SELECT MEAL _SIZE </h2>
+            <br> 
+            <input type="radio" name="meal_size" id="small" checked > 
+            <label for="small">Small</label><br> 
+            <input type="radio" name="meal_size" id="regular"> 
+            <label for="regular">Regular</label> <br>
+            <input type="radio" name="meal_size" id="medium"> 
+            <label for="medium">Medium</label> <br>
+            <input type="radio" name="meal_size" id="large"> 
+            <label for="large">Large</label> <br><br>
+            
+            <h2>QUANTITY OF ORDERS
+            <input type="number" name="quantity" ><br>
+            </h2>
+
+          <input id="email" type="text" name="email"
+              pattern=" [Abcde@abc.com]{}" title="" required><br>
+
+    
+     <h2>SELECT ADDONS </h2>
+            <br> 
+            <input type="checkbox" name="Addons" id="sauce"> 
+            <label for="Sauce">Sauce</label> 
+            <input type="checkbox" name="Addons" id="mayonese"> 
+            <label for="Mayonese">Mayonese</label> 
+            <input type="checkbox" name="Bread" id="bread"> 
+            <label for="Bread">Bread</label> 
+            <input type="checkbox" name="Raita" id="raita"> 
+            <label for="Raita">Raita</label> 
+            
+    
+            
+        </body>
+
+</html>
